@@ -24,6 +24,8 @@
     <!-- SIM Preferences -->
     <string name="select_sim_for_sms">Select a SIM for SMS</string>
 
+    <!-- ABC version -->
     <string name="rom_version_title">ABC Rom version</string>
-
+    <string name="caf_revision">CAF Revision</string>
+     
 </resources>
