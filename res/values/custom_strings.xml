@@ -35,4 +35,8 @@
     <!-- Pixel color on sim card -->
     <string name="default_sim_color">Pixel</string>
 
+    <string name="twilight_mode_location_dialog">Location disabled</string>
+    <string name="twilight_mode_location_disabled">Location access is disabled</string>
+    <string name="twilight_mode_location_enable">Enable</string>
+
 </resources>
