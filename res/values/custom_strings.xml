@@ -32,4 +32,7 @@
     <string name="rom_version_title">ABC Rom version</string>
     <string name="caf_revision">CAF Revision</string>
      
+    <!-- Pixel color on sim card -->
+    <string name="default_sim_color">Pixel</string>
+
 </resources>
