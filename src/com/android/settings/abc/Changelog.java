@@ -59,7 +59,7 @@ public class Changelog extends SettingsPreferenceFragment {
         InputStreamReader inputReader = null;
         String text = null;
         StringBuilder data = new StringBuilder();
-        Pattern p2 = Pattern.compile("\\s+\\*\\s(([\\w_\\-]+/)+)");
+        Pattern p2 = Pattern.compile("\\s+\\*\\s(([\\w_.-]+/)+)");
         Pattern p3 = Pattern.compile("(\\d\\d\\-\\d\\d\\-\\d{4})");
         try {
             char tmp[] = new char[2048];
@@ -93,7 +93,7 @@ public class Changelog extends SettingsPreferenceFragment {
         }
         m = p3.matcher(data);
         while (m.find()){
-          sb.setSpan(new StyleSpan(Typeface.BOLD+Typeface.ITALIC),m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+          sb.setSpan(new StyleSpan(Typeface.BOLD),m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
         }
         final TextView textView = new TextView(getActivity());
         textView.setText(sb);
